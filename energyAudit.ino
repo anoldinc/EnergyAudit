@@ -40,6 +40,7 @@ void loop() {
   // put your main code here, to run repeatedly:
   readAmps();
 
+  //calculate rms value
   ampsRms = ampsPeakToPeak*0.3536;
 
   Serial.print("Current Rms = ");
